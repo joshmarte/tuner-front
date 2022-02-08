@@ -50,7 +50,7 @@ function SongEditForm() {
   return (
     <div className="Edit">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
+        <label htmlFor="name">Song Name:</label>
         <input
           id="name"
           value={song.name}

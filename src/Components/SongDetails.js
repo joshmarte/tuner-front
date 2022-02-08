@@ -32,7 +32,7 @@ function SongDetails() {
   };
 
   return (
-    <article>
+    <article className="Song-Details">
       <h3>
         {song.is_favorite ? <span>⭐️</span> : null} {song.name}
       </h3>
